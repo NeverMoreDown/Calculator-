@@ -6,6 +6,9 @@ html,body {
     margin: 0px;
     padding: 0px;
 }
+* {
+    font-family: 'Orbitron';
+}
 #container {
     display: flex;
     align-content: center;
@@ -41,7 +44,7 @@ html,body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #buttons {
@@ -71,7 +74,7 @@ html,body {
     flex-shrink: 1;
 }
 
-.button {
+.button, .buttonOp, .buttonEqual{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
