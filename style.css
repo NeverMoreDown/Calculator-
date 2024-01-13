@@ -1,0 +1,97 @@
+html,body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 520px;
+    width: 400px;
+    background-color: #390099;
+    margin: 0px;
+    padding: 0px;
+    padding: 10px;
+}
+
+#display {
+    height: 100px;
+    width: 370px;
+    background-color: #FFBD00;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 60px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 325px;
+    margin: 0px;
+    padding: 0px;
+    flex: 1 1 auto;
+    font-size: 32px;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 70px;
+    flex: 1 1 auto;
+}
+
+#btnRow4 {
+    flex-shrink: 1;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80px;
+    height: 70px;
+    background-color: blue;
+}
+
+#zero {
+    width: 175px;
+}
+
+#AC, #neg, #percent {
+    background-color: #FF5400;
+}
+
+#divide, #multiply, #subtract, #add, #equal{
+    background-color: #FF0054;
+}
+
+#nine, #eight, #seven, #six, #five, #four, #three, #two, #one, #dot, #zero {
+    background-color: #9E0059;
+}
